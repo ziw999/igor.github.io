@@ -1,0 +1,155 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: black;
+}
+
+span {
+    font-style: italic;
+    color: rgb(248, 152, 83);
+}
+
+.list {
+    display: inline-block;
+    padding: 2em;
+    margin-top: 2em;
+    margin-bottom: 2em;
+    border-style: solid;
+    border-width: 0.5px;
+    border-color: chocolate;
+}
+
+.list>ol>li>a {
+    text-decoration: none;
+    color: rgb(42, 42, 250);
+}
+
+.img {
+    float: right;
+    margin-left: 2em;
+    border-style: solid;
+    border-color: chocolate;
+    border-width: 0.5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 1em;
+}
+
+.img>.img1 {
+    max-width: 90px;
+}
+
+.img>img {
+    margin-inline: 1em;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(48, 48, 48);
+}
+
+.nav>nav>ul {
+    display: flex;
+    list-style: none;
+}
+
+.nav>nav>ul>li {
+    color: bisque;
+    padding: 1em;
+}
+
+.nav>nav>ul>li>a {
+    color: beige;
+    text-decoration: none;
+}
+
+.text {
+    margin-left: 1.5em;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    
+}  
+
+.navbar {
+    width: 14%;
+}
+
+.navbar>ul {
+    margin-top: 1em;
+    border-bottom-style: solid;
+    padding-bottom: 1em;
+    border-width: 0.5px;
+    border-color: bisque;
+}
+
+.navbar>ul>li {
+    margin-left: 2em;
+    list-style: none;
+    
+}
+
+.navbar>ul>li>a {
+    text-decoration: none;
+    color: bisque;
+}
+
+.main-nav {
+    width: 82%;
+}
+
+.vid>img {
+    width: 70%;
+}
+
+.vid {
+    width: 100%;
+}
+
+.outher {
+text-align: center;
+}
+
+.wic>.span {
+    font-size: 12px;
+}
+
+.input {
+    background-color: black;
+    color: bisque;
+    margin: 5px;
+}
+
+.html {
+    border-bottom-style: solid;
+    border-width: 0.5px;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+.auter {
+    display: flex;
+    flex-direction: column;
+}
+
+.auter>a {
+    text-decoration: none;
+    color: bisque;
+    padding-top: 1em;
+}
+
+.auter>img {
+    max-width: 80px;
+}
+
+
+
+
+
